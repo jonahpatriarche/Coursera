@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #98fa05;
+}
+
+body {
+    background-color: black;
+    color: #999fb9;
+    font-family: "Chalkboard";
+    font-size: 16px;
+}
+
+.panel-menu {
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.panel-menu .panel-heading {
+    border: solid 5px #432d70;
+    border-bottom: none;
+    background-color: #432d70;
+    margin: 0;
+    font-size: 1.25em;
+    font-style: normal;
+    text-align: center;
+}
+
+.panel-body {
+    background-color: black;
+    border: double 5px #432d70;
+    color: white;
+    font-family: "HanziPen TC";
+    font-weight: lighter;
+    padding: 1.5em 2.5em;
+    overflow: auto;
+}
+
+/*
+    Let's make stuff pretty.
+*/
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: white;
+    border-color: rgb(152, 250, 5);
+}
+
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(67, 45, 112, 1);
+    background: -webkit-linear-gradient(top, rgba(14, 104, 156, 1) 0%, rgb(67, 45, 112) 100%);
+    background: linear-gradient(to bottom, rgba(14, 104, 156, 1) 0%, rgba(67, 45, 112, 1) 100%);
+    border: 1px hidden;
+    border-radius: 4px;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
+    color: rgba(197, 198, 201, 1);
+    background-color: rgba(67, 45, 112, 1);
+    background: -webkit-linear-gradient(top, rgba(14, 104, 156, 0.99) 0%, rgb(67, 45, 112) 100%);
+    background: linear-gradient(to bottom, rgba(14, 104, 156, 0.99) 0%, rgb(67, 45, 112) 100%);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.93);
+    font-weight: 500;
+    background-color: rgba(102, 76, 153, 1);
+    background: -webkit-linear-gradient(top, rgba(14, 104, 156, 1) 0%, rgba(102, 76, 153, 1) 100%);
+    background: linear-gradient(to bottom, rgba(14, 104, 156, 1) 0%, rgba(102, 76, 153, 1) 100%);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:focus {
+    color: rgba(152, 250, 5, 0.95);
+    font-weight: 500;
+    background-color: rgba(102, 76, 153, 1);
+    background: -webkit-linear-gradient(top, rgba(14, 104, 156, 1) 0%, rgba(102, 76, 153, 1) 100%);
+    background: linear-gradient(to bottom, rgb(14, 104, 156) 0%, rgba(102, 76, 153, 1) 100%);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #98fa05;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #98fa05;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #98fa05;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #0e689c;
+}
+
+/********** Small devices only - overrides to make toggle menu look nicer **********/
+
+@media (max-width: 767px) {
+    /* get rid of the spacing between first li and top of toggle drop-down */
+    #custom-bootstrap-menu.navbar-default .navbar-left {
+        margin: 0px -15px;
+    }
+
+    #custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
+        color: rgba(197, 198, 201, 1);
+        background: #432d70;
+    }
+
+    #custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
+    #custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
+        color: rgba(255, 255, 255, 0.95);
+        background: -webkit-linear-gradient(top, rgb(102, 76, 153) 0%, rgb(67, 45, 112) 100%);
+        background: linear-gradient(to bottom, rgb(102, 76, 153) 0%, rgb(67, 45, 112) 100%);
+    }
+}
