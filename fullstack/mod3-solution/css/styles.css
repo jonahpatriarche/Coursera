@@ -16,35 +16,7 @@ body {
     font-size: 16px;
 }
 
-.panel-menu {
-    background-color: black;
-    color: white;
-    margin: 10px;
-}
-
-.panel-menu .panel-heading {
-    border: solid 5px #432d70;
-    border-bottom: none;
-    background-color: #432d70;
-    margin: 0;
-    font-size: 1.25em;
-    font-style: normal;
-    text-align: center;
-}
-
-.panel-body {
-    background-color: black;
-    border: double 5px #432d70;
-    color: white;
-    font-family: "HanziPen TC";
-    font-weight: lighter;
-    padding: 1.5em 2.5em;
-    overflow: auto;
-}
-
-/*
-    Let's make stuff pretty.
-*/
+/*** NAVBAR ***/
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: white;
@@ -104,19 +76,44 @@ body {
     background-color: #0e689c;
 }
 
-/********** Small devices only - overrides to make toggle menu look nicer **********/
+/*** CONTENT PANELS ***/
+.panel-menu {
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.panel-menu .panel-heading {
+    border: solid 5px #432d70;
+    border-bottom: none;
+    background-color: #432d70;
+    margin: 0;
+    font-size: 1.25em;
+    font-style: normal;
+    text-align: center;
+}
+
+.panel-body {
+    background-color: black;
+    border: double 5px #432d70;
+    color: white;
+    font-family: "HanziPen TC";
+    font-weight: lighter;
+    padding: 1.5em 2.5em;
+    overflow: auto;
+}
+
+/********** Small devices  **********/
 
 @media (max-width: 767px) {
-    /* get rid of the spacing between first li and top of toggle drop-down */
+    /** Adjustments to Navbar for toggle menu **/
     #custom-bootstrap-menu.navbar-default .navbar-left {
         margin: 0px -15px;
     }
-
     #custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
         color: rgba(197, 198, 201, 1);
         background: #432d70;
     }
-
     #custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
     #custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
         color: rgba(255, 255, 255, 0.95);
