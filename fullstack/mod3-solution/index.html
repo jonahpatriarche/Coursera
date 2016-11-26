@@ -15,33 +15,35 @@
   <title>Coursera Fullstack - Module 3 Solution</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
 <header>
-  <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+  <nav id="header-nav" class="navbar navbar-default">
     <div class="container-fluid">
-      <div class="navbar-header"><a class="navbar-brand" href="#">Brand</a>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse"><span
-                class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
-                class="icon-bar"></span><span class="icon-bar"></span>
+      <div class="navbar-header">
+        <a href="index.html" class="pull-left visible-md visible-lg"></a>
+        <div class="navbar-brand" href="#">Brand</div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
       </div>
       <div class="collapse navbar-collapse" id="nav-collapse">
-        <ul class="nav navbar-nav navbar-left">
+        <ul class="nav navbar-nav navbar-left" id="nav-list">
           <li class="active text-center"><a href="#chicken-panel">Chicken</a>
           </li>
           <li class="text-center"><a href="#beef-panel">Beef</a>
           </li>
           <li class="text-center"><a href="#sushi-panel">Sushi</a>
           </li>
-        </ul>
+        </ul> <!--nav-list-->
       </div>
-    </div>
-  </div>
-
+    </div> <!--.container-fluid-->
+  </nav> <!--header-nav-->
 </header>
+
 <div class="container-fluid">
   <h1 class="text-center" id="top">Our Menu</h1>
   <div class="col-md-4 col-sm-6 col-xs-12">

@@ -18,12 +18,12 @@ body {
 
 /*** NAVBAR ***/
 
-#custom-bootstrap-menu.navbar-default .navbar-brand {
+#header-nav.navbar-default .navbar-brand {
     color: white;
     border-color: rgb(152, 250, 5);
 }
 
-#custom-bootstrap-menu.navbar-default {
+#header-nav.navbar-default {
     font-size: 14px;
     background-color: rgba(67, 45, 112, 1);
     background: -webkit-linear-gradient(top, rgba(14, 104, 156, 1) 0%, rgb(67, 45, 112) 100%);
@@ -32,15 +32,15 @@ body {
     border-radius: 4px;
 }
 
-#custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
+#header-nav.navbar-default .navbar-nav > li > a {
     color: rgba(197, 198, 201, 1);
     background-color: rgba(67, 45, 112, 1);
     background: -webkit-linear-gradient(top, rgba(14, 104, 156, 0.99) 0%, rgb(67, 45, 112) 100%);
     background: linear-gradient(to bottom, rgba(14, 104, 156, 0.99) 0%, rgb(67, 45, 112) 100%);
 }
 
-#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
+#header-nav.navbar-default .navbar-nav > li > a:hover,
+#header-nav.navbar-default .navbar-nav > li > a:focus {
     color: rgba(255, 255, 255, 0.93);
     font-weight: 500;
     background-color: rgba(102, 76, 153, 1);
@@ -48,9 +48,9 @@ body {
     background: linear-gradient(to bottom, rgba(14, 104, 156, 1) 0%, rgba(102, 76, 153, 1) 100%);
 }
 
-#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a,
-#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:focus {
+#header-nav.navbar-default .navbar-nav > .active > a,
+#header-nav.navbar-default .navbar-nav > .active > a:hover,
+#header-nav.navbar-default .navbar-nav > .active > a:focus {
     color: rgba(152, 250, 5, 0.95);
     font-weight: 500;
     background-color: rgba(102, 76, 153, 1);
@@ -58,21 +58,21 @@ body {
     background: linear-gradient(to bottom, rgb(14, 104, 156) 0%, rgba(102, 76, 153, 1) 100%);
 }
 
-#custom-bootstrap-menu.navbar-default .navbar-toggle {
+#header-nav.navbar-default .navbar-toggle {
     border-color: #98fa05;
 }
 
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+#header-nav.navbar-default .navbar-toggle:hover,
+#header-nav.navbar-default .navbar-toggle:focus {
     background-color: #98fa05;
 }
 
-#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+#header-nav.navbar-default .navbar-toggle .icon-bar {
     background-color: #98fa05;
 }
 
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+#header-nav.navbar-default .navbar-toggle:hover .icon-bar,
+#header-nav.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #0e689c;
 }
 
@@ -107,15 +107,15 @@ body {
 
 @media (max-width: 767px) {
     /** Adjustments to Navbar for toggle menu **/
-    #custom-bootstrap-menu.navbar-default .navbar-left {
+    #header-nav.navbar-default .navbar-left {
         margin: 0px -15px;
     }
-    #custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
+    #header-nav.navbar-default .navbar-nav > li > a {
         color: rgba(197, 198, 201, 1);
         background: #432d70;
     }
-    #custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
-    #custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
+    #header-nav.navbar-default .navbar-nav > li > a:hover,
+    #header-nav.navbar-default .navbar-nav > li > a:focus {
         color: rgba(255, 255, 255, 0.95);
         background: -webkit-linear-gradient(top, rgb(102, 76, 153) 0%, rgb(67, 45, 112) 100%);
         background: linear-gradient(to bottom, rgb(102, 76, 153) 0%, rgb(67, 45, 112) 100%);
