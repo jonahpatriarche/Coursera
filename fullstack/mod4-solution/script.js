@@ -23,7 +23,7 @@
 */
 
 // Wrap the entire contents of script.js inside of an IIFE
-( function () {
+( function (window) {
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
     // Loop over the names array and say either 'Hello' or "Good Bye"
@@ -47,4 +47,4 @@
             helloSpeaker.speak(name);
         }
     }
-}) ();
+}) (window);
