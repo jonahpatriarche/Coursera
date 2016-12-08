@@ -47,7 +47,7 @@
     };
 
     function removeEmptyItems(item) {
-      return item !== "";
+      return item.trim() !== "";
     };
   }
 
