@@ -6,12 +6,22 @@
 
   LunchCheckController.$inject = ['$scope'];
   function LunchCheckController($scope) {
+    /* list entered into textbox */
     $scope.lunchList;
+
+    /* initial prompt */
     $scope.lunchMessage = "Enter lunch items, then click \"check if too much\"";
+
+    /*
+     * Class used for styling: see styles/styles.css
+     *  I know I could have used simple inline styling, but I hate inline styling.
+     *  Also, I wanted to play with box shadows.
+     */
     $scope.lunchClass = "prompt";
     
     $scope.checkLunch = function () {
-      if ($scope.lunchList === null || $scope.lunchList === undefined || $scope.lunchList === "") {
+
+      if ($scope.lunchList === undefined || $scope.lunchList === "") {
         $scope.lunchMessage = "Please enter data first";
         $scope.lunchClass = "enterData";
         return;
