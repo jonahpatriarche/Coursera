@@ -1,0 +1,19 @@
+span.prompt {
+    color: blue;
+}
+span.enterData {
+    color: red;
+}
+span.ok {
+    color: green;
+}
+
+input.enterData {
+    border: solid red 1px;
+    box-shadow: rgba(211, 0, 0, 0.3) 0px 1px 1px inset;
+}
+
+input.ok {
+    border: solid green 1px;
+    box-shadow: rgba(0, 100, 0, 0.3) 0px 1px 1px inset;
+}
